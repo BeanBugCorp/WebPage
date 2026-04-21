@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "services": "Services",
+    "process": "Process",
+    "stack": "Stack",
+    "cta": "Get in Touch"
+  },
+  "hero": {
+    "badge": "Now accepting new clients",
+    "title_start": "We build the ",
+    "title_accent": "software",
+    "title_end": " your business needs",
+    "subtitle": "From responsive web experiences to full-scale mobile applications — we turn your vision into production-ready code.",
+    "cta_primary": "Start a Project",
+    "cta_secondary": "See Our Work",
+    "scroll": "Scroll"
+  },
+  "services": {
+    "label": "// What we do",
+    "title": "End-to-end development, tailored to you",
+    "description": "Every project is different. We adapt our approach to fit your business goals, timeline, and budget.",
+    "items": [
+      {
+        "id": "01",
+        "title": "Web Development",
+        "description": "Responsive, performant websites and web applications built with modern frameworks. From marketing sites to complex dashboards."
+      },
+      {
+        "id": "02",
+        "title": "Mobile Apps",
+        "description": "Native-quality mobile applications for iOS and Android. Cross-platform or native — whatever fits your users best."
+      },
+      {
+        "id": "03",
+        "title": "Backend & APIs",
+        "description": "Scalable server architecture and clean API design. Database modeling, authentication, integrations — the invisible engine."
+      }
+    ]
+  },
+  "process": {
+    "label": "// How we work",
+    "title": "Agile, transparent, and collaborative",
+    "description": "We work in sprints so you see progress early and often. No black boxes.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery",
+        "description": "Understand your goals, users, and constraints. Define scope and success metrics."
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "description": "Wireframes and prototypes. Iterate until the UX feels right before writing code."
+      },
+      {
+        "number": "03",
+        "title": "Develop",
+        "description": "Agile sprints with regular demos. Clean, tested, documented code throughout."
+      },
+      {
+        "number": "04",
+        "title": "Deliver",
+        "description": "Launch, monitor, and support. We stick around to make sure everything runs smoothly."
+      }
+    ]
+  },
+  "tech": {
+    "label": "// Our stack",
+    "title": "Tools we work with",
+    "description": "We pick the right tool for the job — not the trendiest one."
+  },
+  "contact": {
+    "label": "// Let's talk",
+    "title": "Have a project in mind?",
+    "description": "Tell us what you're building. We'll figure out how to make it happen — together."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

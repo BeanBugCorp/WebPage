@@ -1,17 +1,24 @@
+import { useTranslation } from 'react-i18next';
+import LanguageToggle from './LanguageToggle';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
+  const { t } = useTranslation();
+
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        BeanBugCorp<span className={styles.cursor}>_</span>
+        Bean Bug Corp<span className={styles.cursor}>_</span>
       </div>
       <ul className={styles.links}>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#process">Process</a></li>
-        <li><a href="#tech">Stack</a></li>
+        <li><a href="#services">{t('nav.services')}</a></li>
+        <li><a href="#process">{t('nav.process')}</a></li>
+        <li><a href="#tech">{t('nav.stack')}</a></li>
       </ul>
-      <a href="#contact" className={styles.cta}>Get in Touch</a>
+      <div className={styles.right}>
+        <LanguageToggle />
+        <a href="#contact" className={styles.cta}>{t('nav.cta')}</a>
+      </div>
     </nav>
   );
 }

@@ -1,0 +1,31 @@
+.toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: border-color 0.3s;
+}
+
+.toggle:hover {
+  border-color: var(--border-hover);
+}
+
+.active {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.inactive {
+  color: var(--text-muted);
+}
+
+.divider {
+  color: var(--text-muted);
+}

@@ -1,29 +1,29 @@
+import { useTranslation } from 'react-i18next';
 import styles from './Hero.module.css';
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.hero}>
       <div className={styles.badge}>
         <span className={styles.dot} />
-        Now accepting new clients
+        {t('hero.badge')}
       </div>
       <h1 className={styles.title}>
-        We build the <em>software</em> your business needs
+        {t('hero.title_start')}<em>{t('hero.title_accent')}</em>{t('hero.title_end')}
       </h1>
-      <p className={styles.sub}>
-        From responsive web experiences to full-scale mobile applications — we
-        turn your vision into production-ready code.
-      </p>
+      <p className={styles.sub}>{t('hero.subtitle')}</p>
       <div className={styles.actions}>
         <a href="#contact" className={styles.btnPrimary}>
-          Start a Project
+          {t('hero.cta_primary')}
         </a>
         <a href="#services" className={styles.btnSecondary}>
-          See Our Work
+          {t('hero.cta_secondary')}
         </a>
       </div>
       <div className={styles.scrollIndicator}>
-        <span>Scroll</span>
+        <span>{t('hero.scroll')}</span>
         <div className={styles.scrollLine} />
       </div>
     </section>

@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "process": "Proceso",
+    "stack": "Tecnologías",
+    "cta": "Contáctanos"
+  },
+  "hero": {
+    "badge": "Aceptando nuevos clientes",
+    "title_start": "Construimos el ",
+    "title_accent": "software",
+    "title_end": " que tu negocio necesita",
+    "subtitle": "Desde experiencias web responsivas hasta aplicaciones móviles completas — convertimos tu visión en código listo para producción.",
+    "cta_primary": "Iniciar un Proyecto",
+    "cta_secondary": "Ver Nuestro Trabajo",
+    "scroll": "Scroll"
+  },
+  "services": {
+    "label": "// Lo que hacemos",
+    "title": "Desarrollo integral, a tu medida",
+    "description": "Cada proyecto es diferente. Adaptamos nuestro enfoque a los objetivos, tiempos y presupuesto de tu negocio.",
+    "items": [
+      {
+        "id": "01",
+        "title": "Desarrollo Web",
+        "description": "Sitios web y aplicaciones responsivas y de alto rendimiento con frameworks modernos. Desde páginas de marketing hasta dashboards complejos."
+      },
+      {
+        "id": "02",
+        "title": "Apps Móviles",
+        "description": "Aplicaciones móviles de calidad nativa para iOS y Android. Multiplataforma o nativas — lo que mejor se adapte a tus usuarios."
+      },
+      {
+        "id": "03",
+        "title": "Backend y APIs",
+        "description": "Arquitectura de servidores escalable y diseño limpio de APIs. Modelado de datos, autenticación, integraciones — el motor invisible."
+      }
+    ]
+  },
+  "process": {
+    "label": "// Cómo trabajamos",
+    "title": "Ágil, transparente y colaborativo",
+    "description": "Trabajamos en sprints para que veas progreso de forma continua. Sin cajas negras.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Descubrimiento",
+        "description": "Entender tus objetivos, usuarios y restricciones. Definir alcance y métricas de éxito."
+      },
+      {
+        "number": "02",
+        "title": "Diseño",
+        "description": "Wireframes y prototipos. Iteramos hasta que la experiencia se sienta correcta antes de escribir código."
+      },
+      {
+        "number": "03",
+        "title": "Desarrollo",
+        "description": "Sprints ágiles con demos regulares. Código limpio, testeado y documentado en todo momento."
+      },
+      {
+        "number": "04",
+        "title": "Entrega",
+        "description": "Lanzamiento, monitoreo y soporte. Nos quedamos para asegurarnos de que todo funcione sin problemas."
+      }
+    ]
+  },
+  "tech": {
+    "label": "// Nuestro stack",
+    "title": "Herramientas con las que trabajamos",
+    "description": "Elegimos la herramienta correcta para el trabajo — no la más de moda."
+  },
+  "contact": {
+    "label": "// Hablemos",
+    "title": "¿Tienes un proyecto en mente?",
+    "description": "Cuéntanos qué estás construyendo. Juntos encontraremos cómo hacerlo realidad."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}
