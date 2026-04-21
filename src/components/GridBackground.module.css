@@ -1,0 +1,11 @@
+.grid {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 80px 80px;
+  opacity: 0.25;
+  mask-image: radial-gradient(ellipse 70% 50% at 50% 30%, black 20%, transparent 70%);
+}
