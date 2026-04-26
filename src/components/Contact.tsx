@@ -15,9 +15,12 @@ export default function Contact() {
         <span className={styles.label}>{t('contact.label')}</span>
         <h2 className={styles.title}>{t('contact.title')}</h2>
         <p className={styles.desc}>{t('contact.description')}</p>
+        {/*
         <a href="mailto:hello@beanbugcorp.com" className={styles.email}>
           team@beanbugcorp.com
         </a>
+        */}
+        <a className={styles.email}> MX +52 - 322 102 0423 </a>
       </div>
     </section>
   );
