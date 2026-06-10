@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Process from './components/Process';
 import TechStack from './components/TechStack';
 import Contact from './components/Contact';
+import ProjectsAndPeople from './components/ProjectsAndPeople';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Process />
       <TechStack />
       <Contact />
+      <ProjectsAndPeople />
       <Footer />
     </>
   );
