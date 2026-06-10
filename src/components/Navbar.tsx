@@ -14,6 +14,7 @@ export default function Navbar() {
         <li><a href="#services">{t('nav.services')}</a></li>
         <li><a href="#process">{t('nav.process')}</a></li>
         <li><a href="#tech">{t('nav.stack')}</a></li>
+        <li><a href="#contact">{t('nav.projects&people')}</a></li>
       </ul>
       <div className={styles.right}>
         <LanguageToggle />
