@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import styles from './LanguageToggle.module.css';
+import styles from '../CSS/LanguageToggle.module.css';
 
 export default function LanguageToggle() {
   const { i18n } = useTranslation();

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import LanguageToggle from './LanguageToggle';
-import styles from './Navbar.module.css';
+import styles from '../CSS/Navbar.module.css';
 
 export default function Navbar() {
   const { t } = useTranslation();

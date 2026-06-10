@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useReveal } from '../hooks/useReveal';
-import styles from './Contact.module.css';
+import styles from '../CSS/Contact.module.css';
 
 export default function Contact() {
   const { t } = useTranslation();

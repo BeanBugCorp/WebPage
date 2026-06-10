@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useReveal } from '../hooks/useReveal';
-import styles from './TechStack.module.css';
+import styles from '../CSS/TechStack.module.css';
 
 const technologies = [
   'React', 'TypeScript', 'JavaScript', 'Next.js', 'React Native',
