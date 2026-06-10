@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useReveal } from '../hooks/useReveal';
-import styles from './Process.module.css';
+import styles from '../CSS/Process.module.css';
 
 export default function Process() {
   const { t } = useTranslation();

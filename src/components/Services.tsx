@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useReveal } from '../hooks/useReveal';
-import styles from './Services.module.css';
+import styles from '../CSS/Services.module.css';
 
 const serviceTags = [
   ['React', 'Next.js', 'TypeScript', 'Responsive'],
