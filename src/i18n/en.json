@@ -75,6 +75,11 @@
     "title": "Have a project in mind?",
     "description": "Tell us what you're building. We'll figure out how to make it happen — together."
   },
+  "ProjectsAndPeople": {
+    "label": "// Who we worked with",
+    "title": "Projects & People",
+    "description": "See our projects and the people we have worked with. Explore the experiences the team counts with"
+  },
   "footer": {
     "rights": "All rights reserved."
   }
