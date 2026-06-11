@@ -4,7 +4,7 @@
     "process": "Process",
     "stack": "Stack",
     "cta": "Get in Touch",
-    "projects&people": "Projects & People"
+    "projects_and_people": "Projects & People"
   },
   "hero": {
     "badge": "Now accepting new clients",
@@ -76,7 +76,7 @@
     "description": "Tell us what you're building. We'll figure out how to make it happen — together."
   },
   "ProjectsAndPeople": {
-    "label": "// Who we worked with",
+    "label": "// Our work",
     "title": "Projects & People",
     "description": "See our projects and the people we have worked with. Explore the experiences the team counts with"
   },

@@ -8,7 +8,7 @@ export default function ProjectsAndPeople() {
     const [contentRef, contentVisible] = useReveal();
 
     return (
-        <section id = "projectsAndPeople" className={styles.section}>
+        <section id = "projects_and_people" className={styles.section}>
             <div
                 ref = {headerRef}
                 className = {`${styles.header} ${headerVisible ? styles.visible: ''}`}

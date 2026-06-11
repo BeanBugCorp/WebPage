@@ -4,7 +4,7 @@
     "process": "Proceso",
     "stack": "Tecnologías",
     "cta": "Contáctanos",
-    "projects&people": "Proyectos & Personas"
+    "projects_and_people": "Proyectos & Personas"
   },
   "hero": {
     "badge": "Aceptando nuevos clientes",
@@ -76,7 +76,7 @@
     "description": "Cuéntanos qué estás construyendo. Juntos encontraremos cómo hacerlo realidad."
   },
   "ProjectsAndPeople": {
-    "label": "// Con quien trabajamos",
+    "label": "// Nuestro trabajo",
     "title": "Proyectos & Personas",
     "description": "Mira nuestros proyectos y las personas con las cuales hemos trabajdo. Explora las experiencias con la cual nuestro equipo cuenta"
   },
