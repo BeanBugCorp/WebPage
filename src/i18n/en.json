@@ -83,6 +83,7 @@
       "garabatos-by-lily": { "title": "Garabatos by Lily", "type": "Portfolio" }
     },
     "back": "← Back to Projects & People",
+  "openProject": "Open the finished project in a new tab",
     "notFound": {
       "title": "Project not found",
       "description": "We couldn't find that project. It may have been moved or removed."

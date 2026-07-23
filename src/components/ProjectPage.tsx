@@ -47,7 +47,19 @@ export default function ProjectPage() {
       >
         <span className={styles.type}>{meta.type}</span>
         <h1 className={styles.title}>{meta.title}</h1>
-        <img src={blog.thumbnail} alt={meta.title} className={styles.hero} />
+        {blog.projectUrl ? (
+          <a
+            href={blog.projectUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.heroLink}
+          >
+            <img src={blog.thumbnail} alt={meta.title} className={styles.hero} />
+            <span className={styles.heroOverlay}>{t('ProjectsAndPeople.openProject')}</span>
+          </a>
+        ) : (
+          <img src={blog.thumbnail} alt={meta.title} className={styles.hero} />
+        )}
         <div className={styles.body}>
           <ReactMarkdown>{content}</ReactMarkdown>
         </div>
