@@ -17,8 +17,8 @@ function App() {
       <Services />
       <Process />
       <TechStack />
-      <Contact />
       <ProjectsAndPeople />
+      <Contact />
       <Footer />
     </>
   );
