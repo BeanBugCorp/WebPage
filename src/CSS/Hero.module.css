@@ -110,13 +110,10 @@
 
 .scrollIndicator {
   position: absolute;
-  bottom: 2.5rem;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
   opacity: 0;
   animation: fadeUp 0.8s 0.9s forwards;
 }
