@@ -21,6 +21,7 @@ export default function Contact() {
         </a>
         */}
         <a className={styles.email}> MX +52 - 322 102 0423 </a>
+        <a className={styles.email}>beanbugcorp@gmail.com</a>
       </div>
     </section>
   );
