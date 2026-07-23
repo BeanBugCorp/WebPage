@@ -1,5 +1,3 @@
-# Garabatos by Lily
-
 Garabatos by Lily is a creative small business created by Lilian “Lily” Camarena. She is based in Tijuana, Mexico, and she does services like window painting, murals and brand activations/events.
 
 Her day to day is working with colors, markers and paint. Her clients range from very small businesses, particular communities, schools, and international brands. Throughout the year, she paints season, event specific, and timeless paintings. She is most busy for events like Valentines Day, Mothers Day, Halloween, Autumn, Christmas and New Years.

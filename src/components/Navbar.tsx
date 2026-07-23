@@ -11,14 +11,14 @@ export default function Navbar() {
         Bean Bug Corp<span className={styles.cursor}>_</span>
       </div>
       <ul className={styles.links}>
-        <li><a href="#services">{t('nav.services')}</a></li>
-        <li><a href="#process">{t('nav.process')}</a></li>
-        <li><a href="#tech">{t('nav.stack')}</a></li>
-        <li><a href="#projects_and_people">{t('nav.projects_and_people')}</a></li>
+        <li><a href="/#services">{t('nav.services')}</a></li>
+        <li><a href="/#process">{t('nav.process')}</a></li>
+        <li><a href="/#tech">{t('nav.stack')}</a></li>
+        <li><a href="/#projects_and_people">{t('nav.projects_and_people')}</a></li>
       </ul>
       <div className={styles.right}>
         <LanguageToggle />
-        <a href="#contact" className={styles.cta}>{t('nav.cta')}</a>
+        <a href="/#contact" className={styles.cta}>{t('nav.cta')}</a>
       </div>
     </nav>
   );

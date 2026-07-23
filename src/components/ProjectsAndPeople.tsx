@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom';
 import { useReveal } from '../hooks/useReveal';
 import { BLOGS } from '../content-data';
 import styles from '../CSS/ProjectsAndPeople.module.css';
@@ -30,7 +31,7 @@ export default function ProjectsAndPeople() {
                 {BLOGS.map((blog) => {
                     const meta = blogsMeta[blog.id];
                     return (
-                        <a key={blog.id} href={blog.url} className={styles.card}>
+                        <Link key={blog.id} to={blog.url} className={styles.card}>
                             <div className={styles.imageWrap}>
                                 <img src={blog.thumbnail} alt={meta.title} className={styles.image} />
                             </div>
@@ -38,7 +39,7 @@ export default function ProjectsAndPeople() {
                                 <h3 className={styles.cardTitle}>{meta.title}</h3>
                                 <p className={styles.cardSubtitle}>{meta.type}</p>
                             </div>
-                        </a>
+                        </Link>
                     );
                 })}
             </div>

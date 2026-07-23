@@ -81,6 +81,11 @@
     "description": "See our projects and the people we have worked with. Explore our experiences.",
     "blogs" : {
       "garabatos-by-lily": { "title": "Garabatos by Lily", "type": "Portfolio" }
+    },
+    "back": "← Back to Projects & People",
+    "notFound": {
+      "title": "Project not found",
+      "description": "We couldn't find that project. It may have been moved or removed."
     }
   },
   "footer": {

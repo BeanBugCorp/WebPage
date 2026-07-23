@@ -1,5 +1,3 @@
-# Garabatos by Lily
-
 Garabatos by Lily es un negocio creativo pequeño creado por Lilian “Lily” Camarena. Se encuentra en Tijuana, México, y hace servicios como dibujo de ventanas, murales y activaciones/eventos de marcas.
 
 Su día a día es trabajar con colores, marcadores y pintura. Sus clientes varían entre negocios pequeños, comunidades particulares, escuelas y marcas internacionales. Durante el año, dibuja pinturas de temporada, de eventos específicos, y pinturas atemporales. Se encuentra más ocupada para eventos como San Valentín, Día de Madres, Halloween, Otoño, Navidad y Año Nuevo.
