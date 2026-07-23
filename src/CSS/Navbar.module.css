@@ -29,6 +29,7 @@
 .links {
   display: flex;
   gap: 2.5rem;
+  transform: translateX(10%);
 }
 
 .links a {
