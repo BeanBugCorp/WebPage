@@ -3,7 +3,8 @@
     "services": "Servicios",
     "process": "Proceso",
     "stack": "Tecnologías",
-    "cta": "Contáctanos"
+    "cta": "Contáctanos",
+    "projects_and_people": "Proyectos & Personas"
   },
   "hero": {
     "badge": "Aceptando nuevos clientes",
@@ -12,7 +13,7 @@
     "title_end": " que tu negocio necesita",
     "subtitle": "Desde experiencias web responsivas hasta aplicaciones móviles completas — convertimos tu visión en código listo para producción.",
     "cta_primary": "Iniciar un Proyecto",
-    "cta_secondary": "Ver Nuestro Trabajo",
+    "cta_secondary": "Ve Nuestro Trabajo",
     "scroll": "Scroll"
   },
   "services": {
@@ -73,6 +74,20 @@
     "label": "// Hablemos",
     "title": "¿Tienes un proyecto en mente?",
     "description": "Cuéntanos qué estás construyendo. Juntos encontraremos cómo hacerlo realidad."
+  },
+  "ProjectsAndPeople": {
+    "label": "// Nuestro trabajo",
+    "title": "Proyectos & Personas",
+    "description": "Mira nuestros proyectos y las personas con las cuales hemos trabajdo. Explora nuestras experiencias.",
+    "blogs" : {
+      "garabatos-by-lily": { "title": "Garabatos by Lily", "type": "Portafolio" }
+    },
+    "back": "← Volver a Proyectos & Personas",
+  "openProject": "Abrir el proyecto terminado en una nueva pestaña",
+    "notFound": {
+      "title": "Proyecto no encontrado",
+      "description": "No pudimos encontrar ese proyecto. Es posible que se haya movido o eliminado."
+    }
   },
   "footer": {
     "rights": "Todos los derechos reservados."

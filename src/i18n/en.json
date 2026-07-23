@@ -3,7 +3,8 @@
     "services": "Services",
     "process": "Process",
     "stack": "Stack",
-    "cta": "Get in Touch"
+    "cta": "Get in Touch",
+    "projects_and_people": "Projects & People"
   },
   "hero": {
     "badge": "Now accepting new clients",
@@ -73,6 +74,20 @@
     "label": "// Let's talk",
     "title": "Have a project in mind?",
     "description": "Tell us what you're building. We'll figure out how to make it happen — together."
+  },
+  "ProjectsAndPeople": {
+    "label": "// Our work",
+    "title": "Projects & People",
+    "description": "See our projects and the people we have worked with. Explore our experiences.",
+    "blogs" : {
+      "garabatos-by-lily": { "title": "Garabatos by Lily", "type": "Portfolio" }
+    },
+    "back": "← Back to Projects & People",
+  "openProject": "Open the finished project in a new tab",
+    "notFound": {
+      "title": "Project not found",
+      "description": "We couldn't find that project. It may have been moved or removed."
+    }
   },
   "footer": {
     "rights": "All rights reserved."
