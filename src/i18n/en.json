@@ -78,7 +78,10 @@
   "ProjectsAndPeople": {
     "label": "// Our work",
     "title": "Projects & People",
-    "description": "See our projects and the people we have worked with. Explore our experiences."
+    "description": "See our projects and the people we have worked with. Explore our experiences.",
+    "blogs" : {
+      "garabatos-by-lily": { "title": "Garabatos by Lily", "type": "Portfolio" }
+    }
   },
   "footer": {
     "rights": "All rights reserved."
