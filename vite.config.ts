@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 const csp = "default-src 'self'; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' https://fonts.googleapis.com; script-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'";
 
 // Report-only CSP: violations are logged to the console but nothing is
@@ -32,7 +34,7 @@ const securityHeadersPreview = {
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), cloudflare()],
   server: { headers: securityHeaders },
   preview: { headers: securityHeadersPreview },
 })
