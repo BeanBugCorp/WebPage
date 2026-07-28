@@ -20,6 +20,12 @@
   letter-spacing: 0.08em;
   color: var(--accent);
   text-transform: uppercase;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.logo:hover {
+  opacity: 0.8;
 }
 
 .cursor {
